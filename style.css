@@ -1,3 +1,88 @@
 body{
     font-family:Poppins;
+    margin: 0px;
+    padding: 0px;
+    color: #3447E7;
 }
+
+#nav-menu{
+    /* width: auto; */
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.logo{
+    display: flex;
+/* border: 2px solid red; */
+padding: 5px 5px;
+width: 6%;
+
+}
+
+.pavanicon{
+    width: 100%;
+    border-radius: 50%;
+}
+#nav-right{
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content:end; */
+}
+#nav-content{
+    display: flex;
+    list-style-type: none;
+}
+
+#nav-content li {
+    padding: 8px 0px;
+    margin: 0px 40px;
+    width: 100%;
+    border-radius: 100px;
+    /* border: 2px solid green; */
+}
+#nav-content li:hover{
+    color: white;
+background: #8C78D6;
+background: -webkit-radial-gradient(top left, #8C78D6, #3447E7);
+background: -moz-radial-gradient(top left, #8C78D6, #3447E7);
+background: radial-gradient(to bottom right, #8C78D6, #3447E7);
+}
+
+#nav-content li a{
+    
+text-decoration: none;
+font-size: 20px;
+padding: 15px 20px;
+/* border: 1px solid gold; */
+}
+
+#resume-link-1{
+background: #8C78D6;
+background: -webkit-radial-gradient(top left, #8C78D6, #3447E7);
+background: -moz-radial-gradient(top left, #8C78D6, #3447E7);
+background: radial-gradient(to bottom right, #8C78D6, #3447E7);
+}
+#resume{
+    color: white;
+}
+#nav-content li a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
