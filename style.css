@@ -1,0 +1,224 @@
+body{
+    font-family:Poppins;
+    margin: 0px;
+    padding: 0px;
+    color: #3447E7;
+    background-color: #faf9ff;
+}
+
+/* NAVBAR */
+
+a {   
+    color: #3447E7;
+}
+
+a:active {
+    color: #3447E7;
+}
+
+#nav-menu{
+    /* width: auto; */
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 2% 6%;
+    padding: 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -40px;
+}
+
+.logo{
+    display: flex;
+/* border: 2px solid red; */
+padding: 5px 5px;
+width: 6%;
+
+}
+
+.pavanicon{
+    width: 100%;
+    border-radius: 50%;
+}
+#nav-right{
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content:end; */
+}
+#nav-content{
+    display: flex;
+    list-style-type: none;
+}
+
+#nav-content li {
+    padding: 8px 0px;
+    margin: 0px 40px;
+    width: 100%;
+    border-radius: 100px;
+    /* border: 2px solid green; */
+}
+#nav-content li:hover{
+    background: #ebe9fd;
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#nav-content li a{
+text-decoration: none;
+font-size: 20px;
+padding: 15px 20px;
+/* border: 1px solid gold; */
+}
+
+#resume-link-1{
+background: #8C78D6;
+background: -webkit-radial-gradient(top left, #8C78D6, #3447E7);
+background: -moz-radial-gradient(top left, #8C78D6, #3447E7);
+background: radial-gradient(to bottom right, #8C78D6, #3447E7);
+/* transition: all 0.5s ease-out; */
+}
+#resume{
+    color: white;
+}
+#nav-content li:last-child{
+    /* color: white; */
+    background: #8C78D6;
+background: -webkit-radial-gradient(top left, #8C78D6, #3447E7);
+background: -moz-radial-gradient(top left, #8C78D6, #3447E7);
+background: radial-gradient(to bottom right, #8C78D6, #3447E7);
+    
+}
+
+.titles{
+    /* border: 2px solid red; */
+    text-align: center;
+    /* justify-content: center; */
+    font-size: 38px;
+}
+
+#abouttext{
+    /* border: 6px solid yellow; */
+    /* padding: -100px -100px; */
+    /* margin: -2% 0%; */
+    /* margin-top: 1%; */
+}
+
+/* INTRO  */
+
+#homes{
+    display: flex;
+    margin: 2% 8%;
+    padding: 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-bottom: 10%;
+}
+
+#user-detail-name p:first-child{
+    display:grid;
+    margin-top: 50px;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    
+}
+
+#user-detail-name h1{
+    font-size: 70px;
+    /* border: 1px solid blue; */
+    margin-top: -20px;
+}
+#user-detail-name p:last-child{
+    font-size: 60px;
+    /* border: 1px solid black; */
+    margin-top: -50px;
+    /* margin-bottom:20px ; */
+}
+
+.btn{
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    /* margin: 10px 40px; */
+    /* width: 100%; */
+    border: none;
+    border-radius: 100px;
+    background: #8C78D6;
+background: -webkit-radial-gradient(top left, #8C78D6, #3447E7);
+background: -moz-radial-gradient(top left, #8C78D6, #3447E7);
+background: radial-gradient(to bottom right, #8C78D6, #3447E7);
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#hommm{
+    display: flex;
+    /* border: 2px solid green; */
+}
+#homdivrhs{
+    /* dis .play: flex; */
+    margin: auto;
+    width: 70%;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid gray; */
+}
+
+#homdivrhs img{
+    width: 60%;
+    /* border: 2px solid red; */
+    /* padding-left: 100px; */
+}
+
+
+/* ABOUT ME  */
+
+#aboutme{
+    /* border: 2px solid gray; */
+    display: flex;
+    margin: 2% 8%;
+    justify-content: space-between;
+}
+
+.home-imgs{
+    /* border: 2px solid red; */
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+    /* width: 100%; */
+    /* margin: 10% 20%; */
+}
+
+.home-imgs img{
+    padding: 2% 2%;
+    width: 90%;
+    border-radius: 10%;
+    box-shadow: rgba(90, 144, 244, 0.4) 0px 2px 4px, rgba(77, 147, 227, 0.3) 0px 7px 13px -3px, rgba(111, 161, 254, 0.2) 0px -3px 0px inset;
+}
+#user-detail-intro {
+    /* border: 2px solid red; */
+    line-height: 30px;
+}
+
+
+#user-detail-intro p{
+    
+    text-align: justify;
+    padding: 1% 5%;
+}
+#data{
+    font-size: 20px;
+}
+
+#aboutmelinks{
+    display: flex;
+    padding: 20px 20px;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+
+#aboutmelinks a{
+    margin: 1% 5%;
+    /* border: 2px solid black; */
+    text-decoration: none;
+}
+
