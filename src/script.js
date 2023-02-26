@@ -2,7 +2,7 @@
 let header = document.querySelector("header");
 let menu = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
-let resumedow = document.getElementById("resume-link-2");
+let resumedow = document.getElementById("resume-button-2");
 let resume1 = document.getElementById("resume-button-1");
 
 window.addEventListener("scroll", () => {
