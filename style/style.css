@@ -653,7 +653,19 @@ grid-template-columns: repeat(4,1fr);
     gap: 1rem;
     justify-content: center;
     text-align: center;
+    /* width: 100%; */
+}
 
+
+#githubmain div img{
+    width: 70%;
+    border: 2px solid red;
+}
+#githubmain div img:nth-child(2){
+    margin-top: 10px;
+}
+#github-stats-card{
+    height: auto;
 }
 
 
