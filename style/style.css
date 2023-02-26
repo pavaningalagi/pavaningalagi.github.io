@@ -646,25 +646,14 @@ grid-template-columns: repeat(4,1fr);
     }
 }
 #githubmain{
-    display: grid;
     margin: auto;
-    grid-template-columns: repeat(1,1fr);
+    display: flex;
+    flex-direction: column;
     /* border: 2px solid red; */
     gap: 1rem;
-}
-#gitdivne{
-    display: grid;
-    /* border: 2px solid black; */
     justify-content: center;
     text-align: center;
 
 }
 
-#githubbox{
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid black; */
-    margin: auto;
-    align-items: center;
-}
 
