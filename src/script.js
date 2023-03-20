@@ -16,20 +16,27 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
-resumedow.onclick = () => {
-    window.open("https://drive.google.com/file/d/1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R/view");
-    setTimeout(() => {
-        window.location.href="https://drive.google.com/u/0/uc?id=1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R&export=download";
-    }, 5);
-};
+function resume() {
+  window.open(
+    "https://drive.google.com/file/d/1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R/view?usp=sharing",
+    "_blank"
+  );
+}
 
-resume1.onclick = () => {
-    window.open("https://drive.google.com/file/d/1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R/view");
-    setTimeout(() => {
-        window.location.href="https://drive.google.com/u/0/uc?id=1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R&export=download";
-    }, 5);
+// resumedow.onclick = () => {
+//     window.open("https://drive.google.com/file/d/1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R/view");
+//     setTimeout(() => {
+//         window.location.href="https://drive.google.com/u/0/uc?id=1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R&export=download";
+//     }, 5);
+// };
 
-};
+// resume1.onclick = () => {
+//     window.open("https://drive.google.com/file/d/1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R/view");
+//     setTimeout(() => {
+//         window.location.href="https://drive.google.com/u/0/uc?id=1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R&export=download";
+//     }, 5);
+
+// };
 
 // // Dark Mode
 // // let darkmode = document.querySelector("#darkmode");
