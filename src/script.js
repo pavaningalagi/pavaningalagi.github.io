@@ -5,6 +5,8 @@ let navbar = document.querySelector(".navbar");
 let resumedow = document.getElementById("resume-button-2");
 let resume1 = document.getElementById("resume-button-1");
 
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
 });
