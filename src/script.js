@@ -23,6 +23,7 @@ function resume() {
   );
 }
 
+
 // resumedow.onclick = () => {
 //     window.open("https://drive.google.com/file/d/1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R/view");
 //     setTimeout(() => {
