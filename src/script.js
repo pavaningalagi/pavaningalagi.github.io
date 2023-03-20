@@ -25,6 +25,20 @@ function resume() {
   );
 }
 
+GitHubCalendar(".calendar", "pavaninglagi");
+
+// or enable responsive functionality:
+GitHubCalendar(".calendar", "pavaninglagi", { responsive: true });
+
+// Use a proxy
+GitHubCalendar(".calendar", "pavaninglagi", {
+   proxy (pavaninglagi) {
+     return fetch(`https://your-proxy.com/github?user=${username}`)
+   }
+}).then(r => r.text())
+
+
+
 
 // resumedow.onclick = () => {
 //     window.open("https://drive.google.com/file/d/1EFyDOQnBuZ8qzpgii6FlJOQq3IgRJ00R/view");
