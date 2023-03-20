@@ -25,17 +25,7 @@ function resume() {
   );
 }
 
-GitHubCalendar(".calendar", "pavaninglagi");
 
-// or enable responsive functionality:
-GitHubCalendar(".calendar", "pavaninglagi", { responsive: true });
-
-// Use a proxy
-GitHubCalendar(".calendar", "pavaninglagi", {
-   proxy (pavaninglagi) {
-     return fetch(`https://your-proxy.com/github?user=${pavaninglagi}`)
-   }
-}).then(r => r.text())
 
 
 
